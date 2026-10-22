@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tupã - Estância Turística da Alta Paulista</title>
+  <meta name="description" content="Guia completo sobre Tupã/SP: história, pontos turísticos, cultura indígena, distrito de Varpa, gastronomia e eventos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegação -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="logo">
+        <span class="logo-accent">Tupã</span> Turismo
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#atracoes" class="nav-link">Atrações</a>
+        <a href="#varpa" class="nav-link">Distrito de Varpa</a>
+        <a href="#dados" class="nav-link">Dados da Cidade</a>
+        <a href="#como-chegar" class="nav-link">Como Chegar</a>
+        <a href="#atracoes" class="btn btn-sm btn-primary">Explorar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="badge">Estância Turística • Interior de SP</span>
+      <h1 class="hero-title">Descubra a Magia e Tradição de Tupã</h1>
+      <p class="hero-subtitle">
+        Cultura viva, herança indígena, o charme histórico da imigração letã e a hospitalidade calorosa do coração do Centro-Oeste Paulista.
+      </p>
+      <div class="hero-actions">
+        <a href="#atracoes" class="btn btn-primary">Descobrir Atrações</a>
+        <a href="#sobre" class="btn btn-outline">Conhecer a História</a>
+      </div>
+      
+      <!-- Destaques Rápidos -->
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">1929</span>
+          <span class="stat-label">Ano de Fundação</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">~64 mil</span>
+          <span class="stat-label">Habitantes</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">510 km</span>
+          <span class="stat-label">De São Paulo Capital</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">SP-294</span>
+          <span class="stat-label">Rodovia Principal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre a Cidade -->
+  <section class="section about-section" id="sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">História & Identidade</span>
+        <h2 class="section-title">O Trovão que Deu Nome à Cidade</h2>
+        <p class="section-desc">Uma história que une pioneirismo cafeeiro, raízes indígenas profundas e diversidade cultural.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon">⚡</div>
+          <h3>Origem do Nome</h3>
+          <p>
+            Fundada em <strong>12 de outubro de 1929</strong> pelo pioneiro Luiz de Góes, a cidade recebeu o nome de <strong>Tupã</strong>, a divindade suprema dos povos indígenas Tupi-Guarani, senhor do trovão e dos céus.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">🏛️</div>
+          <h3>Patrimônio Indígena</h3>
+          <p>
+            Tupã abriga o prestigiado <strong>Museu Índia Vanuíre</strong>, referência nacional na salvaguarda e valorização da cultura dos povos originários Kaingang, Krenak e Terena.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">🌾</div>
+          <h3>Desenvolvimento & Educação</h3>
+          <p>
+            Destaca-se como polo agroindustrial (especialmente no cultivo do amendoim e cana-de-açúcar) e centro acadêmico universitário de destaque, sediando o campus da <strong>UNESP</strong> e faculdades regionais.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Atrações e Turismo -->
+  <section class="section attractions-section" id="atracoes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Turismo & Lazer</span>
+        <h2 class="section-title">Principais Pontos Turísticos</h2>
+        <p class="section-desc">Lugares imperdíveis para vivenciar a cultura, fé e natureza de Tupã.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="filters-container">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="cultura">Cultura & Museu</button>
+        <button class="filter-btn" data-filter="fe">Fé & Arquitetura</button>
+        <button class="filter-btn" data-filter="natureza">Natureza & Parques</button>
+      </div>
+
+      <div class="attractions-grid" id="attractionsGrid">
+        
+        <!-- Museu Índia Vanuíre -->
+        <article class="attraction-card" data-category="cultura">
+          <div class="card-badge">Destaque Cultural</div>
+          <div class="card-body">
+            <span class="card-category">Cultura & Memória</span>
+            <h3 class="card-title">Museu Histórico e Pedagógico Índia Vanuíre</h3>
+            <p class="card-text">
+              Uma das maiores coleções etnográficas do Brasil, com acervo rico sobre os povos indígenas paulistas e a história da fundação da Alta Paulista.
+            </p>
+            <ul class="card-features">
+              <li>📍 Rua Coroados, 521 - Centro</li>
+              <li>🕒 Terça a domingo, 9h às 18h</li>
+              <li>🎟️ Entrada gratuita</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Matriz São Pedro -->
+        <article class="attraction-card" data-category="fe">
+          <div class="card-badge">Fé e Tradição</div>
+          <div class="card-body">
+            <span class="card-category">Fé & Arquitetura</span>
+            <h3 class="card-title">Igreja Matriz de São Pedro Apóstolo</h3>
+            <p class="card-text">
+              O coração religioso da cidade, com arquitetura imponente, belos vitrais e um ambiente de paz localizado em frente à tradicional Praça da Bandeira.
+            </p>
+            <ul class="card-features">
+              <li>📍 Praça da Bandeira - Centro</li>
+              <li>🔔 Festas do Padroeiro em Junho</li>
+              <li>⛲ Próximo ao espelho d'água</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Praça da Bandeira -->
+        <article class="attraction-card" data-category="natureza">
+          <div class="card-badge">Ponto de Encontro</div>
+          <div class="card-body">
+            <span class="card-category">Espaço Urbano</span>
+            <h3 class="card-title">Praça da Bandeira</h3>
+            <p class="card-text">
+              O ponto de encontro dos tupãenses. Conta com fonte luminosa, árvores centenárias, quiosques de alimentação e o Espaço Cultural José Anselmo Filho.
+            </p>
+            <ul class="card-features">
+              <li>🌳 Área arborizada e caminhadas</li>
+              <li>🍦 Gastronomia de rua e eventos</li>
+              <li>📷 Letreiro turístico oficial</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Parque do Bosque -->
+        <article class="attraction-card" data-category="natureza">
+          <div class="card-badge">Ar Livre</div>
+          <div class="card-body">
+            <span class="card-category">Natureza & Lazer</span>
+            <h3 class="card-title">Bosque Municipal de Tupã</h3>
+            <p class="card-text">
+              Área verde exuberante no perímetro urbano, perfeita para caminhadas matinais, observação de pássaros, piqueniques em família e descanso sob a sombra.
+            </p>
+            <ul class="card-features">
+              <li>🏃 Pistas de corrida e caminhada</li>
+              <li>🌿 Ampla vegetação nativa</li>
+              <li>👶 Parquinho infantil</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Solar Luiz de Góes -->
+        <article class="attraction-card" data-category="cultura">
+          <div class="card-badge">História</div>
+          <div class="card-body">
+            <span class="card-category">Patrimônio Histórico</span>
+            <h3 class="card-title">Solar Luiz de Góes</h3>
+            <p class="card-text">
+              Residência histórica do fundador de Tupã, mantendo viva a memória dos primeiros anos de desbravamento e urbanização da região.
+            </p>
+            <ul class="card-features">
+              <li>📜 Arquitetura do início do séc. XX</li>
+              <li>📍 Próximo ao centro</li>
+              <li>📚 Registros da colonização</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Ecoturismo & Cachoeiras -->
+        <article class="attraction-card" data-category="natureza">
+          <div class="card-badge">Aventura</div>
+          <div class="card-body">
+            <span class="card-category">Ecoturismo</span>
+            <h3 class="card-title">Turismo Rural & Trilhas</h3>
+            <p class="card-text">
+              A zona rural de Tupã e vales ao redor possuem cachoeiras, propriedades que produzem cachaça artesanal e rotas de cicloturismo muito procuradas.
+            </p>
+            <ul class="card-features">
+              <li>🚴 Trilhas de bike pela Alta Paulista</li>
+              <li>🍯 Produtos artesanais da fazenda</li>
+              <li>💧 Contato puro com a natureza</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Distrito Histórico de Varpa -->
+  <section class="section varpa-section" id="varpa">
+    <div class="container">
+      <div class="varpa-wrapper">
+        <div class="varpa-content">
+          <span class="section-tag highlight-tag">Cultura Europeia no Interior</span>
+          <h2 class="section-title">Distrito de Varpa: O Pedaço da Letônia no Brasil</h2>
+          <p>
+            Varpa é um distrito singular fundado em 1922 por imigrantes da <strong>Letônia</strong> que buscavam liberdade religiosa e novas oportunidades. É a maior colônia de imigrantes letões no Brasil!
+          </p>
+          <div class="varpa-highlights">
+            <div class="varpa-item">
+              <h4>🏛️ Museu dos Pioneiros de Varpa</h4>
+              <p>Guarda roupas, ferramentas, fotos e objetos trazidos da Europa pelos pioneiros letões.</p>
+            </div>
+            <div class="varpa-item">
+              <h4>🥖 Gastronomia & Tradições</h4>
+              <p>Pães artesanais, tortas típicas e produtos orgânicos preparados pelas famílias locais.</p>
+            </div>
+            <div class="varpa-item">
+              <h4>🌲 Ambiente Tranquilo & Ecológico</h4>
+              <p>Clima de vila bucólica cercada por matas e córregos preservados.</p>
+            </div>
+          </div>
+        </div>
+        <div class="varpa-card-box">
+          <div class="info-box">
+            <h3>Visite Varpa</h3>
+            <p>Localizado a cerca de <strong>20 km</strong> do centro de Tupã, com acesso asfaltado rápido e sinalizado.</p>
+            <hr>
+            <p><strong>Dica de ouro:</strong> Aproveite para experimentar os biscoitos e o mel caseiro produzidos na comunidade!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dados & Indicadores -->
+  <section class="section stats-section" id="dados">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Panorama Geral</span>
+        <h2 class="section-title">Informações & Dados da Cidade</h2>
+        <p class="section-desc">Conheça os principais indicadores do município de Tupã.</p>
+      </div>
+
+      <div class="data-table-container">
+        <table class="data-table">
+          <tbody>
+            <tr>
+              <td><strong>Estado:</strong></td>
+              <td>São Paulo (SP)</td>
+              <td><strong>Gentílico:</strong></td>
+              <td>Tupãense</td>
+            </tr>
+            <tr>
+              <td><strong>Fundação:</strong></td>
+              <td>12 de Outubro de 1929</td>
+              <td><strong>Fundador:</strong></td>
+              <td>Luiz de Góes</td>
+            </tr>
+            <tr>
+              <td><strong>Título Oficial:</strong></td>
+              <td>Estância Turística</td>
+              <td><strong>Capital Nacional:</strong></td>
+              <td>Capital da Fotografia / Amendoim</td>
+            </tr>
+            <tr>
+              <td><strong>Altitude:</strong></td>
+              <td>Aproximadamente 520 metros</td>
+              <td><strong>Clima:</strong></td>
+              <td>Tropical de altitude (verões quentes, invernos amenos)</td>
+            </tr>
+            <tr>
+              <td><strong>Universidades:</strong></td>
+              <td>UNESP, FACCAT, ETEC Prof. Massuyuki Kawano</td>
+              <td><strong>Região:</strong></td>
+              <td>Alta Paulista / Centro-Oeste Paulista</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Como Chegar / Calculador de Distância -->
+  <section class="section travel-section" id="como-chegar">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Planeje Sua Viagem</span>
+        <h2 class="section-title">Como Chegar a Tupã</h2>
+        <p class="section-desc">O acesso principal é realizado pela <strong>Rodovia Comandante João Ribeiro de Barros (SP-294)</strong>, uma das mais modernas e bem conservadas do estado de São Paulo.</p>
+      </div>
+
+      <div class="travel-calculator">
+        <h3>Calcule a distância até Tupã</h3>
+        <p>Selecione sua cidade de partida para conferir a distância estimada:</p>
+        
+        <div class="calc-control">
+          <label for="citySelect">Saindo de:</label>
+          <select id="citySelect" class="form-select">
+            <option value="sp">São Paulo (Capital)</option>
+            <option value="marilia">Marília / SP</option>
+            <option value="bauru">Bauru / SP</option>
+            <option value="prudente">Presidente Prudente / SP</option>
+            <option value="campinas">Campinas / SP</option>
+            <option value="riopreto">São José do Rio Preto / SP</option>
+            <option value="londrina">Londrina / PR</option>
+          </select>
+        </div>
+
+        <div class="calc-result" id="calcResult">
+          <div class="result-number" id="distanceVal">510 km</div>
+          <div class="result-time" id="timeVal">Tempo estimado de carro: ~6h 15min</div>
+          <div class="result-route" id="routeVal">Principal trajeto: Rodovia Castelo Branco (SP-280) e SP-294</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>Tupã Turismo</h3>
+        <p>Portal informativo sobre a Estância Turística de Tupã/SP. Criado com tecnologia moderna e amor pelo interior paulista.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">História de Tupã</a></li>
+          <li><a href="#atracoes">Pontos Turísticos</a></li>
+          <li><a href="#varpa">Distrito de Varpa</a></li>
+          <li><a href="#como-chegar">Como Chegar</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Conexão</h4>
+        <p>Este projeto faz parte do repositório <strong>Aula Matilha</strong> no GitHub.</p>
+        <a href="https://github.com/guiribeirog56-cell/aula-matilha" target="_blank" rel="noopener" class="github-link">
+          Ver repositório no GitHub →
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Tupã/SP - Desenvolvido para Aula Matilha.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
