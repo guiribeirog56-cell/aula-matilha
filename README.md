@@ -2,7 +2,7 @@
 
 Site informativo e turístico sobre a **Estância Turística de Tupã**, localizada no Centro-Oeste do estado de São Paulo (Alta Paulista).
 
-Desenvolvido para o projeto **Aula Matilha**.
+🌐 **Link do site no ar (GitHub Pages):** [https://guiribeirog56-cell.github.io/aula-matilha/](https://guiribeirog56-cell.github.io/aula-matilha/)
 
 ---
 
