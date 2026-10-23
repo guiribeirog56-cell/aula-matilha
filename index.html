@@ -381,6 +381,67 @@
     </div>
   </footer>
 
+  <!-- Chatbot Flutuante Inteligente com dados da Secretaria de Turismo -->
+  <div class="chatbot-toggle-wrapper">
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Abrir assistente virtual de turismo">
+      <span class="chatbot-icon">💬</span>
+      <span class="chatbot-toggle-label">Guia Virtual de Tupã</span>
+      <span class="chatbot-pulse"></span>
+    </button>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow" aria-hidden="true">
+    <div class="chatbot-header">
+      <div class="chatbot-avatar-container">
+        <div class="chatbot-avatar">⚡</div>
+        <div class="chatbot-info">
+          <h4>Guia Virtual de Tupã</h4>
+          <span class="chatbot-status"><span class="status-dot"></span> Dados oficiais de turismo</span>
+        </div>
+      </div>
+      <button class="chatbot-close-btn" id="chatbotClose" aria-label="Fechar chat">✕</button>
+    </div>
+
+    <!-- Mensagens -->
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="chat-msg bot-msg">
+        <div class="msg-bubble">
+          Olá! 👋 Sou o <strong>Guia Virtual de Tupã</strong>.
+          <br><br>
+          Tenho informações oficiais direto da <em>Secretaria Municipal de Turismo</em> (atrações, eventos oficiais, hotéis, restaurantes, distrito de Varpa, contatos e locais úteis).
+          <br><br>
+          Como posso te ajudar hoje?
+        </div>
+      </div>
+    </div>
+
+    <!-- Sugestões rápidas de perguntas -->
+    <div class="chatbot-suggestions" id="chatbotSuggestions">
+      <button class="suggestion-chip" data-question="Quais são os principais pontos turísticos?">🏛️ Pontos Turísticos</button>
+      <button class="suggestion-chip" data-question="Quais são os eventos oficiais da cidade?">🎉 Eventos Oficiais</button>
+      <button class="suggestion-chip" data-question="O que fazer no Distrito de Varpa?">🌲 Distrito de Varpa</button>
+      <button class="suggestion-chip" data-question="Onde se hospedar em Tupã?">🏨 Onde se hospedar?</button>
+      <button class="suggestion-chip" data-question="Onde comer em Tupã?">🍽️ Restaurantes</button>
+      <button class="suggestion-chip" data-question="Como falar com a Secretaria de Turismo?">📞 Contato da Secretaria</button>
+      <button class="suggestion-chip" data-question="Quais os telefones de emergência e hospitais?">🚨 Telefones Úteis</button>
+    </div>
+
+    <!-- Formulário de envio -->
+    <form class="chatbot-input-form" id="chatbotForm">
+      <input type="text" id="chatbotInput" placeholder="Faça uma pergunta sobre Tupã..." autocomplete="off" required>
+      <button type="submit" id="chatbotSend" aria-label="Enviar mensagem">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </form>
+    
+    <div class="chatbot-footer-source">
+      Fonte oficial: <a href="https://www.turismo.tupa.sp.gov.br/" target="_blank" rel="noopener">turismo.tupa.sp.gov.br</a>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
