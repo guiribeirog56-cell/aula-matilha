@@ -407,6 +407,45 @@ document.addEventListener('DOMContentLoaded', () => {
       </ul>`
     },
     {
+      keywords: ['renda', 'salario', 'salarios', 'trabalho', 'emprego', 'carteira assinada', 'quanto ganha', 'remuneracao', 'pobreza', 'vagas'],
+      response: `💼 <strong>Renda, Trabalho e Salários em Tupã:</strong><br>
+      <ul>
+        <li><strong>Salário Médio Formal:</strong> <strong>2,0 salários mínimos</strong> (IBGE Cidades / Censo Demográfico). Levantamentos do SEBRAE/RAIS apontam remuneração nominal média de <strong>R$ 3.080,73</strong>.</li>
+        <li><strong>Total de Trabalhadores Formais:</strong> Cerca de <strong>20.988 vínculos formais</strong> com carteira assinada.</li>
+        <li><strong>Gênero na Ocupação:</strong> Equilíbrio na força de trabalho com 52,4% mulheres e 47,6% homens.</li>
+        <li><strong>Empresas Ativas:</strong> Mais de 4.600 estabelecimentos cadastrados (31,9% MEI, 29,9% Microempresa ME, 3,55% EPP e 34,6% Médias/Grandes).</li>
+        <li><strong>Setores Empregadores:</strong> Comércio e Serviços lideram com mais de 70% dos postos, seguidos pela Indústria alimentícia de amendoim (~22%).</li>
+      </ul>
+      <small>📌 <strong>Fontes oficiais:</strong> <a href="https://cidades.ibge.gov.br/brasil/sp/tupa/panorama" target="_blank">IBGE Cidades (Trabalho)</a> e <a href="https://sebrae.com.br/" target="_blank">SEBRAE Perfil Territorial</a></small>`
+    },
+    {
+      keywords: ['saude', 'mortalidade', 'saneamento', 'esgoto', 'agua tratada', 'sabesp', 'banheiro', 'lixo'],
+      response: `🏥 <strong>Saúde, Saneamento e Meio Ambiente em Tupã:</strong><br>
+      <ul>
+        <li><strong>Mortalidade Infantil:</strong> Taxa oficial de <strong>14,56 óbitos por mil nascidos vivos</strong> (IBGE Cidades / Ministério da Saúde).</li>
+        <li><strong>Esgotamento Sanitário:</strong> Entre <strong>94% e 97%</strong> dos domicílios urbanos contam com rede de esgoto adequada e tratamento de efluentes (serviço gerido pela Sabesp).</li>
+        <li><strong>Água Encanada e Tratada:</strong> Praticamente universalizada (mais de <strong>99%</strong> da população urbana atendida).</li>
+        <li><strong>IDHM Longevidade (PNUD):</strong> Elevado índice de <strong>0,843</strong>, refletindo expectativa de vida superior a 75 anos.</li>
+      </ul>
+      <small>📌 <strong>Fontes oficiais:</strong> <a href="https://cidades.ibge.gov.br/brasil/sp/tupa/pesquisa/13/5908" target="_blank">IBGE Cidades</a>, <a href="https://infosanbas.org.br/" target="_blank">SNIS/SanBas</a> e <a href="http://www.atlasbrasil.org.br/" target="_blank">PNUD Brasil</a></small>`
+    },
+    {
+      keywords: ['fonte', 'fontes', 'pesquisa', 'onde pegou', 'sites', 'de onde', 'bibliografia', 'referencia'],
+      response: `📚 <strong>Fontes Oficiais Consultadas neste Portal:</strong><br>
+      Todos os dados foram apurados diretamente em bases oficiais públicas e científicas:<br>
+      <ol>
+        <li><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/panorama" target="_blank">IBGE Cidades - Panorama de Tupã</a> (Censo 2022, PIB, Renda, População).</li>
+        <li><a href="https://www.turismo.tupa.sp.gov.br/" target="_blank">Secretaria Municipal de Turismo de Tupã</a> (Atrações, Hotéis, Gastronomia e Calendário).</li>
+        <li><a href="https://www.tupa.sp.gov.br/" target="_blank">Prefeitura da Estância Turística de Tupã</a> (Serviços e Distritos).</li>
+        <li><a href="https://sebrae.com.br/" target="_blank">SEBRAE</a> (Painel de Mercado de Trabalho, Renda e Empresas).</li>
+        <li><a href="http://www.iea.sp.gov.br/" target="_blank">IEA-SP - Instituto de Economia Agrícola</a> (Cadeia Produtiva do Amendoim).</li>
+        <li><a href="http://www.atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano / PNUD</a> (IDHM e Dimensões Sociais).</li>
+        <li><a href="https://www.museuindiavanuire.org.br/" target="_blank">Museu Índia Vanuíre (ACAM Portinari)</a> (Acervo Indígena).</li>
+        <li><a href="http://condephaat.sp.gov.br/" target="_blank">CONDEPHAAT</a> (Tombamento do Solar Luiz de Souza Leão).</li>
+        <li><a href="https://www.tupa.unesp.br/" target="_blank">UNESP Tupã (FCE)</a> (Cursos e Pesquisa Universitária).</li>
+      </ol>`
+    },
+    {
       keywords: ['como chegar', 'rodovia', 'sp 294', 'distancia', 'onibus', 'viagem'],
       response: `🚗 <strong>Como Chegar a Tupã:</strong><br>
       <ul>

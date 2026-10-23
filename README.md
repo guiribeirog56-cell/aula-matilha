@@ -1,45 +1,36 @@
 # Portal Turístico & Histórico de Tupã/SP 🏛️⚡
 
-Portal completo e interativo sobre a **Estância Turística de Tupã**, localizada no Centro-Oeste do estado de São Paulo (Alta Paulista).
+Portal oficial e interativo sobre a **Estância Turística de Tupã**, no Centro-Oeste Paulista (Alta Paulista).
 
 🌐 **Link do site no ar (GitHub Pages):** [https://guiribeirog56-cell.github.io/aula-matilha/](https://guiribeirog56-cell.github.io/aula-matilha/)
 
 ---
 
-## 📚 Fontes Oficiais Pesquisadas
+## 📊 Raio-X Socioeconômico com Fontes Oficiais
 
-As informações reunidas no portal e no assistente virtual foram pesquisadas e consolidadas a partir das principais fontes oficiais e acadêmicas:
-1. **Secretaria Municipal de Turismo de Tupã** ([turismo.tupa.sp.gov.br](https://www.turismo.tupa.sp.gov.br/))
-2. **Prefeitura Municipal da Estância Turística de Tupã** ([tupa.sp.gov.br](https://www.tupa.sp.gov.br/))
-3. **Censo Oficial do IBGE** (População contada, PIB per capita, área e densidade territorial)
-4. **Atlas do Desenvolvimento Humano / PNUD** (Índice de Desenvolvimento Humano Municipal - IDHM)
-5. **Museu Histórico e Pedagógico Índia Vanuíre** ([museuindiavanuire.org.br](https://www.museuindiavanuire.org.br/) / ACAM Portinari / Governo do Estado de SP)
-6. **Solar Luiz de Souza Leão** (Conselho de Defesa do Patrimônio Histórico - CONDEPHAAT)
-7. **Acervo Histórico da Imigração Letã em Varpa** (Sociedade Batista / Corporação Palma)
-8. **UNESP - Campus Experimental de Tupã** (Faculdade de Ciências e Engenharia - FCE)
-
----
-
-## 🌟 Conteúdo & Seções do Site
-
-- **História & Fundador:** Fundação em 12 de outubro de 1929 por Luiz de Souza Leão, traçado ortogonal, o Solar tombado pelo CONDEPHAAT e o mausoléu histórico.
-- **A Pacificadora Índia Vanuíre:** A mediação de paz com os povos originários Kaingang, Krenak e Terena e o museu etnográfico com mais de 38 mil peças.
-- **Os 3 Distritos de Tupã:**
-  - **Varpa (Colônia Letã de 1922):** Museu dos Pioneiros Janis Erdbergs, centenária Fazenda Palma, rafting e trilhas da Expedição Varpa no Rio do Peixe, gastronomia báltica (*rudzu maize*) e mel do Apiário Puro Mel.
-  - **Parnaso:** Memória da ferrovia Cia. Paulista e do ciclo do café.
-  - **Universo:** Núcleo ferroviário de 1949 e polo de vida bucólica e rural.
-- **Pontos Turísticos & Ecoturismo com Filtros:** Museus, Solar, Matriz de São Pedro, Praça da Bandeira, Bosque Municipal, Eco Thermas Park, pesqueiros (Hamada, Flávio, Sol Nascente) e rafting em corredeiras.
-- **Calendário de Grandes Eventos Oficiais:** Tupã Folia, Exapit (Rodeio e Shows), Quinta com Arte (Feirart semanal), Tupã Junina, Nippon Fest, Tupã Moto Rock, Festival AFROFEST e Natal de Luz.
-- **Guia de Hospedagem & Gastronomia:** Hotéis cadastrados (Cazuza Palace, Central Plaza, Avenida Hotel, etc.) e restaurantes (Água Doce Cachaçaria, Restaurante Aimorés, churrascarias, culinária japonesa e cafés coloniais).
-- **Indicadores Demográficos (IBGE/PNUD):** 63.928 habitantes (Censo 2022), área de 627,986 km², IDHM 0,771 (Alto), PIB per capita R$ 48.934,77 e vocação como Capital Nacional do Amendoim.
-- **Serviços de Saúde & Telefones de Emergência:** UPA 24h, Santa Casa, PM (190), Bombeiros (193), SAMU (192), Rodoviária e Aeroporto Estadual.
-- **Calculadora Interativa de Viagem:** Simulação de rotas da SP-294 a partir de várias capitais e cidades vizinhas.
-- **Chatbot Inteligente "Guia Virtual de Tupã":** Assistente virtual flutuante com respostas automáticas e precisas sobre todas as áreas do município.
+| Dimensão | Indicador Oficial | Fonte Oficial / Link |
+| :--- | :--- | :--- |
+| **Renda & Salário Médio** | **2,0 Salários Mínimos** (Remuneração média nominal de R$ 3.080,73) | [IBGE Cidades - Trabalho](https://cidades.ibge.gov.br/brasil/sp/tupa/panorama) / [SEBRAE](https://sebrae.com.br/) |
+| **Trabalhadores Formais** | **20.988 carteiras assinadas** (52,4% mulheres / 47,6% homens) | [SEBRAE / RAIS / MTE](https://sebrae.com.br/) |
+| **Empresas Ativas** | **Mais de 4.600 estabelecimentos** (31,9% MEI, 29,9% ME, 3,55% EPP) | [Receita Federal / SEBRAE](https://sebrae.com.br/) |
+| **PIB per Capita** | **R$ 48.934,77** por habitante ao ano | [IBGE - Contas Regionais](https://cidades.ibge.gov.br/brasil/sp/tupa/pesquisa/38/46996) |
+| **População** | **63.928 habitantes** (Censo 2022) / **65.447** (estimativa recente) | [IBGE - Censo Demográfico](https://cidades.ibge.gov.br/brasil/sp/tupa/panorama) |
+| **Área Territorial** | **627,986 km²** (Densidade: 101,8 hab/km²) | [IBGE - Território](https://cidades.ibge.gov.br/brasil/sp/tupa/panorama) |
+| **IDHM Geral** | **0,771** (Longevidade: 0,843 \| Renda: 0,761 \| Educação: 0,715) | [Atlas do Desenvolvimento Humano / PNUD](http://www.atlasbrasil.org.br/) |
+| **Escolarização (6 a 14 anos)**| **97,8% a 99%** da faixa etária atendida | [IBGE / INEP](https://cidades.ibge.gov.br/brasil/sp/tupa/panorama) |
+| **Mortalidade Infantil** | **14,56 óbitos** por mil nascidos vivos | [IBGE / Ministério da Saúde](https://cidades.ibge.gov.br/brasil/sp/tupa/pesquisa/13/5908) |
+| **Saneamento & Água** | **94% a 97%** esgoto coletado/tratado \| **99%** água tratada | [Sabesp / SNIS / SanBas](https://infosanbas.org.br/) |
+| **Capital do Amendoim** | 15.000 a 25.000 ha plantados \| >13% das exportações do Brasil | [IEA-SP](http://www.iea.sp.gov.br/) / [Câmara de Tupã](https://www.camaratupa.sp.gov.br/) |
+| **Fundador & História** | Fundada em 12/10/1929 por Luiz de Souza Leão | [CONDEPHAAT](http://condephaat.sp.gov.br/) / Prefeitura |
+| **Acervo Indígena** | Museu Índia Vanuíre com mais de 38.000 peças etnográficas | [Museu Índia Vanuíre](https://www.museuindiavanuire.org.br/) / ACAM Portinari |
+| **Distrito de Varpa** | Maior colônia da Letônia na América do Sul (1922) | [Secretaria de Turismo](https://www.turismo.tupa.sp.gov.br/) |
+| **Polo Universitário** | UNESP (Eng. Biossistemas, Administração e Mestrado em Agronegócio) | [UNESP Câmpus de Tupã](https://www.tupa.unesp.br/) |
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5 Semântico & Acessibilidade**
-- **CSS3 Moderno** (Flexbox, CSS Grid, Glassmorphism, Design Responsivo para Mobile, Tablet e Desktop)
-- **JavaScript Puro (Vanilla JS)** (Engine de busca em linguagem natural, filtros dinâmicos e calculadora de rotas)
+- **CSS3 Moderno** (Flexbox, CSS Grid, Glassmorphism, Design Responsivo)
+- **JavaScript Puro (Vanilla JS)** (Engine de busca em linguagem natural, filtros e calculadora de distâncias)
+- **Chatbot Integrado:** Base de conhecimento com dados oficiais e citação de fontes
