@@ -1183,10 +1183,10 @@ img {
   position: fixed;
   bottom: 88px;
   right: 24px;
-  width: 380px;
+  width: 440px;
   max-width: calc(100vw - 32px);
-  height: 560px;
-  max-height: calc(100vh - 110px);
+  height: 620px;
+  max-height: calc(100vh - 100px);
   background: #ffffff;
   border-radius: var(--radius-lg);
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.25);
@@ -1349,6 +1349,56 @@ img {
 
 .bot-msg .msg-bubble li {
   margin-bottom: 4px;
+}
+
+/* Tabelas e elementos ricos dentro do balão do Chat */
+.chat-msg {
+  max-width: 92%;
+}
+
+.chat-table-wrapper {
+  overflow-x: auto;
+  margin: 12px 0 8px 0;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  max-width: 100%;
+}
+
+.chat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.chat-table th {
+  background: var(--dark);
+  color: #ffffff;
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.chat-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+  vertical-align: top;
+}
+
+.chat-table tr:nth-child(even) td {
+  background: #f8fafc;
+}
+
+.chat-table tr:last-child td {
+  border-bottom: none;
+}
+
+.chat-table a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 /* Sugestões Rápidas */

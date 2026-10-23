@@ -138,6 +138,98 @@ document.addEventListener('DOMContentLoaded', () => {
   // Base de Conhecimento Oficial Expandida (turismo.tupa.sp.gov.br, IBGE, UNESP e Acervos Históricos)
   const tourismKnowledgeBase = [
     {
+      keywords: ['tabela', 'todas', 'raio x', 'livro oficial', 'quadro', 'resumo completo', 'dados completos', 'tabela completa', 'geral', 'tudo sobre tupa'],
+      response: `📊 <strong>Raio-X Oficial de Tupã (Tabela Completa de Indicadores):</strong><br>
+      <div class="chat-table-wrapper">
+        <table class="chat-table">
+          <thead>
+            <tr>
+              <th>Dimensão</th>
+              <th>Dado Oficial</th>
+              <th>Fonte Oficial / Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Renda e Salário</strong></td>
+              <td>2,0 Salários Mínimos (Remuneração média nominal de R$ 3.080,73)</td>
+              <td><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/panorama" target="_blank">IBGE Cidades - Trabalho</a> / <a href="https://sebrae.com.br/" target="_blank">SEBRAE</a></td>
+            </tr>
+            <tr>
+              <td><strong>Trabalhadores Formais</strong></td>
+              <td>20.988 carteiras assinadas (52,4% mulheres / 47,6% homens)</td>
+              <td><a href="https://sebrae.com.br/" target="_blank">SEBRAE / RAIS / MTE</a></td>
+            </tr>
+            <tr>
+              <td><strong>Empresas Ativas</strong></td>
+              <td>Mais de 4.600 estabelecimentos (31,9% MEI, 29,9% ME, 3,55% EPP)</td>
+              <td><a href="https://sebrae.com.br/" target="_blank">Receita Federal / SEBRAE</a></td>
+            </tr>
+            <tr>
+              <td><strong>PIB per capita</strong></td>
+              <td>R$ 48.934,77 por habitante ao ano</td>
+              <td><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/pesquisa/38/46996" target="_blank">IBGE - Contas Regionais</a></td>
+            </tr>
+            <tr>
+              <td><strong>População</strong></td>
+              <td>63.928 habitantes (Censo 2022) / 65.447 (estimativa recente)</td>
+              <td><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/panorama" target="_blank">IBGE - Censo Demográfico</a></td>
+            </tr>
+            <tr>
+              <td><strong>Área Territorial</strong></td>
+              <td>627,986 km² (Densidade: 101,8 hab/km²)</td>
+              <td><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/panorama" target="_blank">IBGE</a></td>
+            </tr>
+            <tr>
+              <td><strong>IDHM Geral</strong></td>
+              <td>0,771 (Longevidade: 0,843 | Renda: 0,761 | Educação: 0,715)</td>
+              <td><a href="http://www.atlasbrasil.org.br/" target="_blank">Atlas do Desenv. Humano/PNUD</a></td>
+            </tr>
+            <tr>
+              <td><strong>Escolarização (6 a 14 anos)</strong></td>
+              <td>97,8% a 99% da faixa etária atendida</td>
+              <td><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/panorama" target="_blank">IBGE / INEP</a></td>
+            </tr>
+            <tr>
+              <td><strong>Mortalidade Infantil</strong></td>
+              <td>14,56 óbitos por mil nascidos vivos</td>
+              <td><a href="https://cidades.ibge.gov.br/brasil/sp/tupa/pesquisa/13/5908" target="_blank">IBGE / Ministério da Saúde</a></td>
+            </tr>
+            <tr>
+              <td><strong>Saneamento e Água</strong></td>
+              <td>94% a 97% esgoto coletado/tratado | 99% água tratada</td>
+              <td>Sabesp / <a href="https://infosanbas.org.br/" target="_blank">SNIS / SanBas</a></td>
+            </tr>
+            <tr>
+              <td><strong>Capital do Amendoim</strong></td>
+              <td>15.000 a 25.000 ha plantados | >13% das exportações do Brasil</td>
+              <td><a href="http://www.iea.sp.gov.br/" target="_blank">IEA-SP</a> / <a href="https://camaratupa.sp.gov.br/" target="_blank">Câmara de Tupã</a></td>
+            </tr>
+            <tr>
+              <td><strong>Fundador e História</strong></td>
+              <td>Fundada em 12/10/1929 por Luiz de Souza Leão</td>
+              <td><a href="http://condephaat.sp.gov.br/" target="_blank">CONDEPHAAT</a> / Prefeitura</td>
+            </tr>
+            <tr>
+              <td><strong>Acervo Indígena</strong></td>
+              <td>Museu Índia Vanuíre com mais de 38.000 peças etnográficas</td>
+              <td><a href="https://www.museuindiavanuire.org.br/" target="_blank">Museu Índia Vanuíre / ACAM Portinari</a></td>
+            </tr>
+            <tr>
+              <td><strong>Distrito de Varpa</strong></td>
+              <td>Maior Colônia da Letônia na América do Sul (1922)</td>
+              <td><a href="https://www.turismo.tupa.sp.gov.br/" target="_blank">Secretaria de Turismo</a></td>
+            </tr>
+            <tr>
+              <td><strong>Polo Universitário</strong></td>
+              <td>UNESP (Eng. Biossistemas, Administração e Mestrado em Agronegócio)</td>
+              <td><a href="https://www.tupa.unesp.br/" target="_blank">Câmpus de Tupã da UNESP</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>`
+    },
+    {
       keywords: ['fundador', 'fundacao', 'fundou', 'luiz de souza leao', 'souza leao', 'historia', 'solar', '1929', 'joao do val', 'euripedes rocha'],
       response: `⚡ <strong>Fundação & Luiz de Souza Leão:</strong><br>
       Tupã foi fundada em <strong>12 de outubro de 1929</strong> pelo pioneiro pernambucano <strong>Luiz de Souza Leão</strong>, juntamente com João do Val e Eurípedes Soares da Rocha.<br><br>
